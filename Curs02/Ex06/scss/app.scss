@@ -9,3 +9,37 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+$borders: (dotted, solid, dashed, double, none);
+
+@each $border in $borders {
+  .b-#{$border} {
+    border: $border;
+  }
+}
+
+$margins: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+@each $size, $value in $margins {
+  .m-#{$size} {
+    margin: $value;
+  }
+}
+
+$paddings: (
+  'xs': 4px,
+  'sm': 8px,
+  'md': 16px,
+  'lg': 32px,
+);
+
+@each $size, $value in $paddings {
+  .p-#{$size} {
+    padding: $value;
+  }
+}

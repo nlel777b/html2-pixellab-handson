@@ -1,0 +1,16 @@
+@mixin box-2 {
+  @media (max-width: 500px) {
+    display: none;
+  }
+}
+
+@mixin box-2-bg {
+  @media (min-width: 501px) {
+    background: green;
+  }
+}
+
+.box-2 {
+  @include box-2;
+  @include box-2-bg;
+}

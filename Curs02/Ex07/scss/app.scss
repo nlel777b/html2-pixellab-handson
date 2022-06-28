@@ -3,3 +3,45 @@
   justify-content: space-between;
   margin: 16px 0;
 }
+
+$colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $name, $color in $colors {
+  .btn-#{$name} {
+    color: $color;
+  }
+}
+
+$background-colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $name, $background-color in $background-colors {
+  .btn-bg-#{$name} {
+    background-color: $background-color;
+  }
+}
+
+$colors: (
+  'main': red,
+  'primary': blue,
+  'secondary': green,
+  'tertiary': yellow,
+  'neutral': gray,
+);
+
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color;
+  }
+}

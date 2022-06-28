@@ -1,0 +1,43 @@
+.btn-primary {
+  color: purple;
+}
+.btn-primary .btn-primary {
+  color: color;
+}
+
+.btn-secondary {
+  color: blue;
+}
+.btn-secondary .btn-secondary {
+  color: color;
+}
+
+.btn-inverted {
+  background-color: transparent;
+}
+.btn-inverted .btn-inverted {
+  background-color: color;
+}
+
+.btn-inverted-light {
+  background-color: lightgray;
+}
+.btn-inverted-light .btn-inverted-light {
+  background-color: color;
+}
+
+.btn-tertiary {
+  color: green;
+}
+.btn-tertiary .btn-tertiary {
+  color: color;
+}
+
+.btn-text-gray {
+  color: gray;
+}
+.btn-text-gray .btn-text-gray {
+  color: color;
+}
+
+/*# sourceMappingURL=style.css.map */

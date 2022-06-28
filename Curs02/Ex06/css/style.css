@@ -1,0 +1,65 @@
+.line {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #000;
+}
+
+.b-dotted {
+  border: dotted;
+}
+
+.b-solid {
+  border: solid;
+}
+
+.b-dashed {
+  border: dashed;
+}
+
+.b-double {
+  border: double;
+}
+
+.b-none {
+  border: none;
+}
+
+.m-xs {
+  margin: 4px;
+}
+
+.m-sm {
+  margin: 8px;
+}
+
+.m-md {
+  margin: 16px;
+}
+
+.m-lg {
+  margin: 32px;
+}
+
+.p-xs {
+  padding: 4px;
+}
+
+.p-sm {
+  padding: 8px;
+}
+
+.p-md {
+  padding: 16px;
+}
+
+.p-lg {
+  padding: 32px;
+}
+
+/*# sourceMappingURL=style.css.map */

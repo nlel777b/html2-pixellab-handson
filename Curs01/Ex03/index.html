@@ -4,7 +4,10 @@
 <head>
 
   <title>Picture & srcset</title>
-
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
   <link
     rel="stylesheet"
     href="https://pixellab.ro/js/pixeltab/static/js/pixeltab.css"
@@ -12,7 +15,24 @@
 </head>
 
 <body>
-
+  <picture>
+    <source
+      media="(max-width: 600px)"
+      srcset="images/w300.png"
+    >
+    <source
+      media="(max-width: 768px)"
+      srcset="images/w500.png"
+    >
+    <source
+      media="(max-width: 992px)"
+      srcset="images/w900.png"
+    >
+    <img
+      src="images/w1900.png"
+      alt="Alte rezolutii"
+    >
+  </picture>
 
 
   <div

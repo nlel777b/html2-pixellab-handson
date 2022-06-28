@@ -11,39 +11,44 @@
     http-equiv="X-UA-Compatible"
     content="ie=edge"
   >
+  <link
+    rel="stylesheet"
+    href="node_modules/bootstrap/dist/css/bootstrap.css"
+  >
   <title>Bootstrap Grid</title>
 </head>
 
 <body>
 
   <div class="container">
-    <div class="row">
-      <div class="col">Last</div>
-      <div class="col">Second</div>
-      <div class="col">First</div>
+    <div class="row text-center">
+      <div class="col border order-last">Last</div>
+      <div class="col border order-second">Second</div>
+      <div class="col border order-first">First</div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col">5</div>
-      <div class="col">4</div>
-      <div class="col">3</div>
-      <div class="col">2</div>
-      <div class="col">1</div>
+    <div class="row text-center">
+      <div class="col border order-5">5</div>
+      <div class="col border order-4">4</div>
+      <div class="col border order-3">3</div>
+      <div class="col border order-2">2</div>
+      <div class="col border order-1">1</div>
     </div>
   </div>
 
   <div class="container">
-    <div class="row">
-      <div class="col">10</div>
-      <div class="col">20</div>
-      <div class="col">30</div>
-      <div class="col">40</div>
-      <div class="col">50</div>
-      <div class="col">60</div>
+    <div class="row flex-row-reverse">
+      <div class="col border">10</div>
+      <div class="col border">20</div>
+      <div class="col border">30</div>
+      <div class="col border">40</div>
+      <div class="col border">50</div>
+      <div class="col border">60</div>
     </div>
   </div>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>

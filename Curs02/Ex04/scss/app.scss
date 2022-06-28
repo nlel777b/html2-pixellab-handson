@@ -9,3 +9,24 @@
   height: 150px;
   border: 1px solid #000;
 }
+
+@for $i from 1 through 5 {
+  .box-#{$i} {
+    border: #{$i}px solid black;
+  }
+}
+
+@for $i from 1 to 6 {
+  .box-0#{$i} {
+    width: 145px + $i * 5;
+    height: 145px + $i * 5;
+  }
+}
+
+@for $i from 1 through 5 {
+  .box-#{$i}0 {
+    @if $i % 2 !=0 {
+      background-color: gray;
+    }
+  }
+}

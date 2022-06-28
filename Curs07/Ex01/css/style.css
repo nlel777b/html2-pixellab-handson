@@ -1,0 +1,106 @@
+@keyframes animation-01 {
+  100% {
+    background-color: blue;
+    width: 100%;
+  }
+}
+.bar-01 {
+  animation: animation-01 10s ease-in;
+}
+
+@keyframes animation-02 {
+  100% {
+    background-color: blue;
+    width: 100%;
+  }
+}
+.bar-02 {
+  animation: animation-02 10s linear;
+}
+
+@keyframes animation-03 {
+  0% {
+    background-color: blue;
+    width: 100%;
+  }
+
+  33.3% {
+    background-color: yellow;
+    width: 75%;
+  }
+
+  66.6% {
+    background-color: red;
+    width: 200px;
+  }
+
+  100% {
+    background-color: blue;
+    width: 5px;
+  }
+}
+.bar-03 {
+  animation: animation-03 12s ease-in;
+}
+
+@keyframes animation-04 {
+  0% {
+    background-color: red;
+    width: 100%;
+  }
+
+  50% {
+    background-color: blue;
+    width: 50%;
+  }
+
+  50% {
+    background-color: black;
+  }
+
+  100% {
+    background-color: orange;
+    width: 155px;
+  }
+}
+.bar-04 {
+  animation: animation-04 5s ease-out;
+}
+
+@keyframes animation-05 {
+  0% {
+    background-color: green;
+    width: 100%;
+  }
+
+  33.3% {
+    background-color: red;
+    width: 500%;
+  }
+
+  66.6% {
+    background-color: green;
+    width: 75px;
+  }
+
+  100% {
+    background-color: orange;
+    width: 500px;
+  }
+}
+.bar-05 {
+  animation: animation-05 8s linear;
+}
+
+@keyframes animation-06 {
+  from {
+    width: 200px;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+.bar-06 {
+  animation: animation-06 4s ease-in forwards;
+}
